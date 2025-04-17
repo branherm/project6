@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="mainPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.guilford.MainWindowController">
+    <Label text="Enter a word:" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+    <TextField fx:id="wordField" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+    <Button text="Calculate Score" onAction="#handleCalculateScore" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    <Label text="Standard Set Score:" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+    <Label fx:id="standardScoreLabel" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+    <Label text="Random Set Score:" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+    <Label fx:id="randomScoreLabel" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+    <Button text="View Scrabble Sets" onAction="#handleViewSets" GridPane.rowIndex="4" GridPane.columnIndex="1" />
+</GridPane>

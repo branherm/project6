@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="analysisPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.guilford.AnalysisWindowController">
+    <Label text="Standard Scrabble Set:" />
+    <TextArea fx:id="standardSetText" editable="false" />
+    <Label text="Random Scrabble Set:" />
+    <TextArea fx:id="randomSetText" editable="false" />
+    <Label text="Analysis of frankenstein.txt:" />
+    <TextArea fx:id="analysisText" editable="false" />
+</VBox>
